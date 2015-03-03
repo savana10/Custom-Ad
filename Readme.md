@@ -21,19 +21,18 @@ Steps:
 - If you don't have any app , create a new app , name it as Custom Ads , after that create a new class named Advertisement
 - Add following columns in Advertisement class 
 
- -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|	Column Name 	  |			Type																														|
-|					  |																																		|
-|=====================|=====================================================================================================================================|
-|	  image    		  |         File (adimage to be displayed)																								|
-|	  link            |         String (url to which user needs to navigate when clicked on it eg: http://www.github.com)									|
-|	 active 		  |         Boolean (true if you want to display that ad, else false)																	|
-|	displayImage	  |         File (image displayed when a user clicks on bottom image)																	|
-|	clickedCount      |         Number (to know how many users clicked on ad ,auto increment when use clicks on ad, keep 0 while adding new ad)				|
-|	clickedLinkCount  |         Number (to know how many users navigated to that link,auto increment when use clicks on ad, keep 0 while adding new ad)		|
-|	type              |         Number  (1 for Image, 2 for external link)																					|
-|					  |																																		|
- -----------------------------------------------------------------------------------------------------------------------------------------------------------	
+
+Column Name 	  |			Type																				
+
+
+ image    		  |         File (adimage to be displayed)																								
+link              |         String (url to which user needs to navigate when clicked on it eg: http://                  www.github.com)									
+ active 		  |         Boolean (true if you want to display that ad, else false)																	|
+displayImage	  |         File (image displayed when a user clicks on bottom image)															
+clickedCount      |         Number (to know how many users clicked on ad ,auto increment when use clicks on ad, keep 0 while adding new ad)				
+clickedLinkCount  |         Number (to know how many users navigated to that link,auto increment when use clicks on ad, keep 0 while adding new ad)		
+|	type              |         Number  (1 for Image, 2 for external link)																					
+
 - Upload all your advertisements by clicking on +Row and inserting values accordingly.
 - Go to the project  where you add advertisements 
 - Download Parse.com iOS SDK if you don't have one and add all required frameworks in Build Phases
@@ -42,8 +41,8 @@ Steps:
 - Go to your app delegate and import "CustomAd.h" 
 - Go to your App in Parse.com , go to settings and in Keys copy the App Id and Client Key and paste it your project like this
 
-#define Parse_App_Id @"--APP--ID--GOES--HERE"
-#define Parse_Client_Key @"--CLIENT--GOES--HERE"
+// #define Parse_App_Id @"--APP--ID--GOES--HERE"
+// #define Parse_Client_Key @"--CLIENT--GOES--HERE"
 - In your - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 add     [CustomAd initializeServerWith:Parse_App_Id And:Parse_Client_Key];
 // If Advertisements need to be displayed on top of view
@@ -60,6 +59,8 @@ Everything is done (: now when you save your project and run it you will be seei
 
 To Implement :
 -Video Advertisements.
+
+
 License :
 
 Custom Ads is available under the MIT license. Copyright © 2015 Savana. 
