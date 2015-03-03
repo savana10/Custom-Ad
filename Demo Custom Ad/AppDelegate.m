@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#define Parse_App_Id @""
+#define Parse_Client_Key @""
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //! Need to be done here only
+    [CustomAd initializeServerWith:Parse_App_Id And:Parse_Client_Key];
+    
+    // if to display from top
+    CustomAd *c=[CustomAd new];
+    [c setBannerTopOrigin:@30.0f];// to set y position from top, 20.0 is default
+    [c setBannerSize:@80.0f];    // to set Banner size 60.0f is default
+    [c displayAdsAt:false];
+    // to display from bottom
+    [[CustomAd new] displayAdsAt:true];
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960670931AA483AC00C458C3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960670921AA483AC00C458C3 /* AVFoundation.framework */; };
+		960670BE1AA59F2600C458C3 /* AdDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960670B91AA59F2600C458C3 /* AdDetailsViewController.xib */; };
+		960670BF1AA59F2600C458C3 /* AdImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960670BA1AA59F2600C458C3 /* AdImageCell.xib */; };
+		960670C01AA59F2600C458C3 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 960670BC1AA59F2600C458C3 /* cross.png */; };
+		960670C21AA59F3900C458C3 /* libadsCustom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960670C11AA59F3900C458C3 /* libadsCustom.a */; };
 		96C23AF61AA377500017F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23AF51AA377500017F0C6 /* main.m */; };
 		96C23AF91AA377500017F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23AF81AA377500017F0C6 /* AppDelegate.m */; };
 		96C23AFC1AA377500017F0C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23AFB1AA377500017F0C6 /* ViewController.m */; };
@@ -14,6 +19,23 @@
 		96C23B011AA377510017F0C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C23B001AA377510017F0C6 /* Images.xcassets */; };
 		96C23B041AA377510017F0C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C23B021AA377510017F0C6 /* LaunchScreen.xib */; };
 		96C23B101AA377510017F0C6 /* Demo_Custom_AdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23B0F1AA377510017F0C6 /* Demo_Custom_AdTests.m */; };
+		96C23B211AA37A2F0017F0C6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B1F1AA37A2F0017F0C6 /* Bolts.framework */; };
+		96C23B221AA37A2F0017F0C6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B201AA37A2F0017F0C6 /* Parse.framework */; };
+		96C23B261AA37A4D0017F0C6 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B251AA37A4D0017F0C6 /* libz.1.1.3.dylib */; };
+		96C23B281AA37A530017F0C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B271AA37A530017F0C6 /* libsqlite3.dylib */; };
+		96C23B2A1AA37A5B0017F0C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B291AA37A5B0017F0C6 /* SystemConfiguration.framework */; };
+		96C23B2C1AA37A630017F0C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B2B1AA37A630017F0C6 /* Security.framework */; };
+		96C23B2E1AA37A6A0017F0C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B2D1AA37A6A0017F0C6 /* QuartzCore.framework */; };
+		96C23B301AA37A740017F0C6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B2F1AA37A740017F0C6 /* MobileCoreServices.framework */; };
+		96C23B321AA37A7B0017F0C6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B311AA37A7B0017F0C6 /* CFNetwork.framework */; };
+		96C23B341AA37A810017F0C6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B331AA37A810017F0C6 /* AudioToolbox.framework */; };
+		96C23B361AA37A880017F0C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B351AA37A880017F0C6 /* UIKit.framework */; };
+		96C23B381AA37A8C0017F0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B371AA37A8C0017F0C6 /* Foundation.framework */; };
+		96C23B3A1AA37A930017F0C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B391AA37A930017F0C6 /* CoreLocation.framework */; };
+		96C23B3C1AA37A970017F0C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B3B1AA37A970017F0C6 /* CoreGraphics.framework */; };
+		96C23B3E1AA37A9E0017F0C6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B3D1AA37A9E0017F0C6 /* StoreKit.framework */; };
+		96C23B401AA37AA50017F0C6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B3F1AA37AA50017F0C6 /* Accounts.framework */; };
+		96C23B421AA37AB90017F0C6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C23B411AA37AB90017F0C6 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		960670921AA483AC00C458C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		960670B91AA59F2600C458C3 /* AdDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDetailsViewController.xib; sourceTree = "<group>"; };
+		960670BA1AA59F2600C458C3 /* AdImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdImageCell.xib; sourceTree = "<group>"; };
+		960670BB1AA59F2600C458C3 /* adsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adsCustom.h; sourceTree = "<group>"; };
+		960670BC1AA59F2600C458C3 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		960670BD1AA59F2600C458C3 /* CustomAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAd.h; sourceTree = "<group>"; };
+		960670C11AA59F3900C458C3 /* libadsCustom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libadsCustom.a; sourceTree = "<group>"; };
 		96C23AF01AA377500017F0C6 /* Demo Custom Ad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Custom Ad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C23AF41AA377500017F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C23AF51AA377500017F0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +69,24 @@
 		96C23B091AA377510017F0C6 /* Demo Custom AdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo Custom AdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C23B0E1AA377510017F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C23B0F1AA377510017F0C6 /* Demo_Custom_AdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_Custom_AdTests.m; sourceTree = "<group>"; };
+		96C23B1F1AA37A2F0017F0C6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Bolts.framework; sourceTree = "<group>"; };
+		96C23B201AA37A2F0017F0C6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../Parse.framework; sourceTree = "<group>"; };
+		96C23B231AA37A380017F0C6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		96C23B251AA37A4D0017F0C6 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		96C23B271AA37A530017F0C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		96C23B291AA37A5B0017F0C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		96C23B2B1AA37A630017F0C6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		96C23B2D1AA37A6A0017F0C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96C23B2F1AA37A740017F0C6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		96C23B311AA37A7B0017F0C6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		96C23B331AA37A810017F0C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		96C23B351AA37A880017F0C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96C23B371AA37A8C0017F0C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96C23B391AA37A930017F0C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		96C23B3B1AA37A970017F0C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96C23B3D1AA37A9E0017F0C6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		96C23B3F1AA37AA50017F0C6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		96C23B411AA37AB90017F0C6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +94,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960670931AA483AC00C458C3 /* AVFoundation.framework in Frameworks */,
+				96C23B421AA37AB90017F0C6 /* Social.framework in Frameworks */,
+				96C23B401AA37AA50017F0C6 /* Accounts.framework in Frameworks */,
+				960670C21AA59F3900C458C3 /* libadsCustom.a in Frameworks */,
+				96C23B3E1AA37A9E0017F0C6 /* StoreKit.framework in Frameworks */,
+				96C23B3C1AA37A970017F0C6 /* CoreGraphics.framework in Frameworks */,
+				96C23B3A1AA37A930017F0C6 /* CoreLocation.framework in Frameworks */,
+				96C23B381AA37A8C0017F0C6 /* Foundation.framework in Frameworks */,
+				96C23B361AA37A880017F0C6 /* UIKit.framework in Frameworks */,
+				96C23B341AA37A810017F0C6 /* AudioToolbox.framework in Frameworks */,
+				96C23B321AA37A7B0017F0C6 /* CFNetwork.framework in Frameworks */,
+				96C23B301AA37A740017F0C6 /* MobileCoreServices.framework in Frameworks */,
+				96C23B2E1AA37A6A0017F0C6 /* QuartzCore.framework in Frameworks */,
+				96C23B2C1AA37A630017F0C6 /* Security.framework in Frameworks */,
+				96C23B2A1AA37A5B0017F0C6 /* SystemConfiguration.framework in Frameworks */,
+				96C23B281AA37A530017F0C6 /* libsqlite3.dylib in Frameworks */,
+				96C23B261AA37A4D0017F0C6 /* libz.1.1.3.dylib in Frameworks */,
+				96C23B211AA37A2F0017F0C6 /* Bolts.framework in Frameworks */,
+				96C23B221AA37A2F0017F0C6 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +126,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		960670B81AA59F2600C458C3 /* adsCustom */ = {
+			isa = PBXGroup;
+			children = (
+				960670B91AA59F2600C458C3 /* AdDetailsViewController.xib */,
+				960670BA1AA59F2600C458C3 /* AdImageCell.xib */,
+				960670BB1AA59F2600C458C3 /* adsCustom.h */,
+				960670BC1AA59F2600C458C3 /* cross.png */,
+				960670BD1AA59F2600C458C3 /* CustomAd.h */,
+			);
+			path = adsCustom;
+			sourceTree = "<group>";
+		};
+		960670C31AA59F3F00C458C3 /* Custom Ads */ = {
+			isa = PBXGroup;
+			children = (
+				960670C11AA59F3900C458C3 /* libadsCustom.a */,
+				960670B81AA59F2600C458C3 /* adsCustom */,
+			);
+			name = "Custom Ads";
+			sourceTree = "<group>";
+		};
 		96C23AE71AA3774F0017F0C6 = {
 			isa = PBXGroup;
 			children = (
+				960670921AA483AC00C458C3 /* AVFoundation.framework */,
+				96C23B411AA37AB90017F0C6 /* Social.framework */,
+				96C23B3F1AA37AA50017F0C6 /* Accounts.framework */,
+				96C23B3D1AA37A9E0017F0C6 /* StoreKit.framework */,
+				96C23B3B1AA37A970017F0C6 /* CoreGraphics.framework */,
+				96C23B391AA37A930017F0C6 /* CoreLocation.framework */,
+				96C23B371AA37A8C0017F0C6 /* Foundation.framework */,
+				96C23B351AA37A880017F0C6 /* UIKit.framework */,
+				96C23B331AA37A810017F0C6 /* AudioToolbox.framework */,
+				96C23B311AA37A7B0017F0C6 /* CFNetwork.framework */,
+				96C23B2F1AA37A740017F0C6 /* MobileCoreServices.framework */,
+				96C23B2D1AA37A6A0017F0C6 /* QuartzCore.framework */,
+				96C23B2B1AA37A630017F0C6 /* Security.framework */,
+				96C23B291AA37A5B0017F0C6 /* SystemConfiguration.framework */,
+				96C23B271AA37A530017F0C6 /* libsqlite3.dylib */,
+				96C23B251AA37A4D0017F0C6 /* libz.1.1.3.dylib */,
+				96C23B231AA37A380017F0C6 /* libz.dylib */,
+				96C23B1F1AA37A2F0017F0C6 /* Bolts.framework */,
+				96C23B201AA37A2F0017F0C6 /* Parse.framework */,
 				96C23AF21AA377500017F0C6 /* Demo Custom Ad */,
 				96C23B0C1AA377510017F0C6 /* Demo Custom AdTests */,
 				96C23AF11AA377500017F0C6 /* Products */,
@@ -88,6 +194,7 @@
 				96C23AFD1AA377510017F0C6 /* Main.storyboard */,
 				96C23B001AA377510017F0C6 /* Images.xcassets */,
 				96C23B021AA377510017F0C6 /* LaunchScreen.xib */,
+				960670C31AA59F3F00C458C3 /* Custom Ads */,
 				96C23AF31AA377500017F0C6 /* Supporting Files */,
 			);
 			path = "Demo Custom Ad";
@@ -199,8 +306,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960670C01AA59F2600C458C3 /* cross.png in Resources */,
 				96C23AFF1AA377510017F0C6 /* Main.storyboard in Resources */,
+				960670BF1AA59F2600C458C3 /* AdImageCell.xib in Resources */,
 				96C23B041AA377510017F0C6 /* LaunchScreen.xib in Resources */,
+				960670BE1AA59F2600C458C3 /* AdDetailsViewController.xib in Resources */,
 				96C23B011AA377510017F0C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,8 +453,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/savana/Documents,
+				);
 				INFOPLIST_FILE = "Demo Custom Ad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/savana/Desktop/curo,
+					"$(PROJECT_DIR)/adsCustom",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Demo",
+					Custom,
+					Ad,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +480,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/savana/Documents,
+				);
 				INFOPLIST_FILE = "Demo Custom Ad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/savana/Desktop/curo,
+					"$(PROJECT_DIR)/adsCustom",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Demo",
+					Custom,
+					Ad,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +556,7 @@
 				96C23B151AA377510017F0C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96C23B161AA377510017F0C6 /* Build configuration list for PBXNativeTarget "Demo Custom AdTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +565,7 @@
 				96C23B181AA377510017F0C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomAd.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
