@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		960670931AA483AC00C458C3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960670921AA483AC00C458C3 /* AVFoundation.framework */; };
-		960670BE1AA59F2600C458C3 /* AdDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960670B91AA59F2600C458C3 /* AdDetailsViewController.xib */; };
-		960670BF1AA59F2600C458C3 /* AdImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960670BA1AA59F2600C458C3 /* AdImageCell.xib */; };
-		960670C01AA59F2600C458C3 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 960670BC1AA59F2600C458C3 /* cross.png */; };
-		960670C21AA59F3900C458C3 /* libadsCustom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960670C11AA59F3900C458C3 /* libadsCustom.a */; };
+		960670CC1AA5AF5800C458C3 /* AdDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960670C61AA5AF5800C458C3 /* AdDetailsViewController.xib */; };
+		960670CD1AA5AF5800C458C3 /* AdImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 960670C71AA5AF5800C458C3 /* AdImageCell.xib */; };
+		960670CE1AA5AF5800C458C3 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 960670C91AA5AF5800C458C3 /* cross.png */; };
+		960670CF1AA5AF5800C458C3 /* libadsCustom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 960670CB1AA5AF5800C458C3 /* libadsCustom.a */; };
 		96C23AF61AA377500017F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23AF51AA377500017F0C6 /* main.m */; };
 		96C23AF91AA377500017F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23AF81AA377500017F0C6 /* AppDelegate.m */; };
 		96C23AFC1AA377500017F0C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C23AFB1AA377500017F0C6 /* ViewController.m */; };
@@ -50,12 +50,12 @@
 
 /* Begin PBXFileReference section */
 		960670921AA483AC00C458C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		960670B91AA59F2600C458C3 /* AdDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDetailsViewController.xib; sourceTree = "<group>"; };
-		960670BA1AA59F2600C458C3 /* AdImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdImageCell.xib; sourceTree = "<group>"; };
-		960670BB1AA59F2600C458C3 /* adsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adsCustom.h; sourceTree = "<group>"; };
-		960670BC1AA59F2600C458C3 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
-		960670BD1AA59F2600C458C3 /* CustomAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAd.h; sourceTree = "<group>"; };
-		960670C11AA59F3900C458C3 /* libadsCustom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libadsCustom.a; sourceTree = "<group>"; };
+		960670C61AA5AF5800C458C3 /* AdDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdDetailsViewController.xib; sourceTree = "<group>"; };
+		960670C71AA5AF5800C458C3 /* AdImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdImageCell.xib; sourceTree = "<group>"; };
+		960670C81AA5AF5800C458C3 /* adsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adsCustom.h; sourceTree = "<group>"; };
+		960670C91AA5AF5800C458C3 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		960670CA1AA5AF5800C458C3 /* CustomAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAd.h; sourceTree = "<group>"; };
+		960670CB1AA5AF5800C458C3 /* libadsCustom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libadsCustom.a; sourceTree = "<group>"; };
 		96C23AF01AA377500017F0C6 /* Demo Custom Ad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo Custom Ad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C23AF41AA377500017F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C23AF51AA377500017F0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				960670931AA483AC00C458C3 /* AVFoundation.framework in Frameworks */,
 				96C23B421AA37AB90017F0C6 /* Social.framework in Frameworks */,
 				96C23B401AA37AA50017F0C6 /* Accounts.framework in Frameworks */,
-				960670C21AA59F3900C458C3 /* libadsCustom.a in Frameworks */,
+				960670CF1AA5AF5800C458C3 /* libadsCustom.a in Frameworks */,
 				96C23B3E1AA37A9E0017F0C6 /* StoreKit.framework in Frameworks */,
 				96C23B3C1AA37A970017F0C6 /* CoreGraphics.framework in Frameworks */,
 				96C23B3A1AA37A930017F0C6 /* CoreLocation.framework in Frameworks */,
@@ -126,25 +126,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		960670B81AA59F2600C458C3 /* adsCustom */ = {
+		960670C41AA5AF5800C458C3 /* Custom Ads */ = {
 			isa = PBXGroup;
 			children = (
-				960670B91AA59F2600C458C3 /* AdDetailsViewController.xib */,
-				960670BA1AA59F2600C458C3 /* AdImageCell.xib */,
-				960670BB1AA59F2600C458C3 /* adsCustom.h */,
-				960670BC1AA59F2600C458C3 /* cross.png */,
-				960670BD1AA59F2600C458C3 /* CustomAd.h */,
+				960670C51AA5AF5800C458C3 /* adsCustom */,
+				960670CB1AA5AF5800C458C3 /* libadsCustom.a */,
 			);
-			path = adsCustom;
+			path = "Custom Ads";
 			sourceTree = "<group>";
 		};
-		960670C31AA59F3F00C458C3 /* Custom Ads */ = {
+		960670C51AA5AF5800C458C3 /* adsCustom */ = {
 			isa = PBXGroup;
 			children = (
-				960670C11AA59F3900C458C3 /* libadsCustom.a */,
-				960670B81AA59F2600C458C3 /* adsCustom */,
+				960670C61AA5AF5800C458C3 /* AdDetailsViewController.xib */,
+				960670C71AA5AF5800C458C3 /* AdImageCell.xib */,
+				960670C81AA5AF5800C458C3 /* adsCustom.h */,
+				960670C91AA5AF5800C458C3 /* cross.png */,
+				960670CA1AA5AF5800C458C3 /* CustomAd.h */,
 			);
-			name = "Custom Ads";
+			path = adsCustom;
 			sourceTree = "<group>";
 		};
 		96C23AE71AA3774F0017F0C6 = {
@@ -194,7 +194,7 @@
 				96C23AFD1AA377510017F0C6 /* Main.storyboard */,
 				96C23B001AA377510017F0C6 /* Images.xcassets */,
 				96C23B021AA377510017F0C6 /* LaunchScreen.xib */,
-				960670C31AA59F3F00C458C3 /* Custom Ads */,
+				960670C41AA5AF5800C458C3 /* Custom Ads */,
 				96C23AF31AA377500017F0C6 /* Supporting Files */,
 			);
 			path = "Demo Custom Ad";
@@ -306,11 +306,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960670C01AA59F2600C458C3 /* cross.png in Resources */,
+				960670CE1AA5AF5800C458C3 /* cross.png in Resources */,
 				96C23AFF1AA377510017F0C6 /* Main.storyboard in Resources */,
-				960670BF1AA59F2600C458C3 /* AdImageCell.xib in Resources */,
+				960670CD1AA5AF5800C458C3 /* AdImageCell.xib in Resources */,
 				96C23B041AA377510017F0C6 /* LaunchScreen.xib in Resources */,
-				960670BE1AA59F2600C458C3 /* AdDetailsViewController.xib in Resources */,
+				960670CC1AA5AF5800C458C3 /* AdDetailsViewController.xib in Resources */,
 				96C23B011AA377510017F0C6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +467,10 @@
 					"$(PROJECT_DIR)/Demo",
 					Custom,
 					Ad,
+					"$(PROJECT_DIR)/Demo",
+					Custom,
+					Ad/Custom,
+					Ads,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -494,6 +498,10 @@
 					"$(PROJECT_DIR)/Demo",
 					Custom,
 					Ad,
+					"$(PROJECT_DIR)/Demo",
+					Custom,
+					Ad/Custom,
+					Ads,
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",

@@ -30,6 +30,7 @@
     // to display from bottom
     [[CustomAd new] displayAdsAt:true];
     
+    
     return YES;
     
 }
