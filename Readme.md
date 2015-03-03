@@ -1,7 +1,7 @@
 Custom Ad
 =========
 
-This is a demo project for displaying our own advCustertisements in our applications.
+This is a demo project for displaying our own advertisements in application.
 
 Features:
 - Fetches advertisement from Parse.com
